@@ -1,0 +1,65 @@
+.divf{
+    width: 700px;
+    height: 500px;
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+   
+}   
+
+
+.square1{
+    width: 100px;
+    height: 100px;
+    margin: 25px auto;
+    background-color: orange;
+}
+        .square2{
+            width: 100px;
+            height: 100px;
+            margin: 25px auto;
+            background-color:orange;
+    }
+            .square3{
+                width: 100px;
+                height: 100px;
+                margin: 25px auto;
+                background-color: orange;
+            }
+
+
+
+@media screen and (min-width: 768px){
+    .square1{
+        background-color: purple;
+    }
+    .square2{
+        background-color:red;
+    }
+    .square3{
+        background-color: seagreen;
+    }
+    .divf{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+        
+        
+    }
+}
+
+@media screen and (min-width: 1200px){
+     
+    .square1{
+        background-color: blue;
+    }
+    .square2{
+        background-color:seagreen;
+    }
+    .square3{
+        background-color: red;
+    }
+    .divf{
+        align-items: center;
+    }
+}
